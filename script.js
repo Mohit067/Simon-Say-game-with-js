@@ -87,7 +87,7 @@ gameFlash(randomBtn);
 
 }
 
-document.addEventListener("keypress" , () => {
+document.addEventListener("click" , () => {
     if(gameStart == false){//game start
         gameStart = true;
     }
